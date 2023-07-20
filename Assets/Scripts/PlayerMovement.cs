@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator cameraAnimator;
 
-    private float speed = 20f;
+    private float speed = 5f;
     public float sprintMult = 1;
     public float gravity = -9.81f;
 
