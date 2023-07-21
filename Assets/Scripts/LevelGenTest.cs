@@ -6,7 +6,7 @@ using System.Linq;
 public class LevelGenTest : MonoBehaviour
 {
     public int size;
-    private float increase = 50f;
+    private float increase = 50.24f; //50.24
 
     public int setSize;
 
