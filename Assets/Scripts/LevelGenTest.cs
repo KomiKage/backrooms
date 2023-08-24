@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using static UnityEngine.Rendering.DebugUI.Table;
 
 public class LevelGenTest : MonoBehaviour
 {
@@ -46,7 +47,9 @@ public class LevelGenTest : MonoBehaviour
             //loops through the Z axis
             for (int f = 0; f < z_value; f++)
             {
-                Instantiate(blendTest, v3, Quaternion.identity);
+                int rot = Random.Range(0, rotations.Length);
+                v3_rotation = new Vector3(0, rotations[rot], 0);
+                Instantiate(blendTest, v3, Quaternion.Euler(v3_rotation));
 
                 //Debug.Log(compObj.name + " : X=" + i + " Y=" + f);
                 current_x += increase;
