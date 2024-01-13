@@ -1,0 +1,17 @@
+game:
+	-hunter has to find and kill survivor before they escape
+	-survivor has to find and unlock escape
+
+areas:
+	-backrooms level 1
+	-poolrooms
+	-low poly forest
+	-HD forest
+	-dreamscape (iconic dreamcore area)
+
+Hunter:
+	-gets passive points to spend on upgrades
+	-control over cameras in each area
+
+Survivor:
+	-has to find artifacts in different areas which'll grant them abilities
